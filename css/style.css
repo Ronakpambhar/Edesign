@@ -1,0 +1,562 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.pad {
+    padding-top: 100px;
+}
+
+.pad-2 {
+    padding-bottom: 100px;
+}
+
+.defcl {
+    color: #4f6066;
+}
+
+.defcl-1 {
+    color: #5D747A;
+}
+
+.text-cl {
+    color: #ed0c6d;
+}
+
+.cl-1 {
+    color: #484848;
+}
+
+.text-tx {
+    line-height: 26px;
+}
+
+/* ================HEADER START================== */
+.header {
+    z-index: 1;
+    right: 0;
+    left: 0;
+    top: 0;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.headernv {
+    color: #0000;
+}
+
+.navigate {
+    color: #000000;
+}
+
+.navigate:hover {
+    color: #ed0c6d;
+}
+
+.logo {
+    padding-top: 0;
+    left: -35px;
+    top: -10px;
+    height: 85px;
+}
+
+/* ================HEADER END==================== */
+/* ===============SLIDER START=================== */
+.banner {
+    background-image: url(../image/bg.jpg);
+    width: 100%;
+    height: 100%;
+    top: -100px;
+    position: relative;
+    background-size: cover;
+}
+
+.hc {
+    color: aqua;
+}
+
+.img-icon {
+    width: 33px;
+    height: 33px;
+    margin-bottom: 5px;
+}
+
+.clients {
+    padding: 0;
+    text-align: right;
+}
+
+.slider {
+    margin: 100px 0;
+}
+
+.shead {
+    padding-left: 90px;
+    padding-top: 90px;
+}
+
+main {
+    font-size: 16px;
+}
+
+/* ===============SLIDER END==================== */
+/* ===============SERVICE START================ */
+.service-text {
+    color: #313131;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 45px;
+}
+
+.serviceh a:hover {
+    color: #ed0c6d;
+}
+
+.btnh:hover {
+    background-color: #a00347;
+}
+
+.box {
+    margin: 5px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.box-1 {
+    border-radius: 50%;
+    opacity: 0.4;
+    display: inline-block;
+    margin: 5px;
+}
+
+.post {
+    font-size: 14px;
+    color: #9ea0ab;
+}
+
+.review {
+    letter-spacing: 3px;
+}
+
+.contain {
+    font-size: 11px;
+    color: #ffc107;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.Portfolio {
+    position: relative;
+    margin: 5px;
+    display: -webkit-inline-box;
+    width: 180px;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+    animation: winanim 0.5s;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+}
+
+@keyframes winanim {
+    0% {
+        opacity: 0;
+        transform: scale3d(.3, .3, .3)
+    }
+
+    50% {
+        opacity: 1
+    }
+}
+
+.box-5 {
+    margin: 5px;
+    border: 1px solid #ebedef;
+    box-shadow: 10px 10px 10px #9ea0ab;
+    border-radius: 5%;
+}
+
+.startbtn {
+    background-color: #ed0c6d;
+    padding: 10px 15px;
+}
+
+.features {
+    margin: 130px 0 60px;
+}
+
+.features-bg {
+    background: linear-gradient(to right, #ed0c6d 0%, #f71cb4 100%);
+    width: 100%;
+}
+
+.feature {
+    top: -75px;
+}
+
+.feature-2 {
+    margin: 10px;
+}
+
+.feature-3 {
+    bottom: -75px;
+}
+
+.feim {
+    max-width: 100%;
+    height: auto;
+}
+
+.large-1 {
+    width: 70%;
+    text-align: center;
+    margin: 20px auto;
+    z-index: 100;
+}
+
+.lpd {
+    filter: drop-shadow(12px 17px 16px rgba(31, 31, 31, 0.5));
+}
+
+.lp {
+    background-color: #ffffff;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.fetx {
+    margin-top: 100px;
+}
+
+.large-2 {
+    width: 56%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.text {
+    padding: 46px 20px;
+    font-size: 13px;
+}
+
+.text-2 {
+    padding: 27px 20px;
+    font-size: 13px;
+}
+
+.resource {
+    padding: 50px 10px;
+    margin: 20px 0 20px 0;
+    border: 1px solid #ebedef;
+}
+
+.resource-3 {
+    padding: 50px 10px;
+    margin: 20px 0 20px 0;
+    border: 1px solid #ebedef;
+}
+
+.resource-3:hover {
+    border: 2px solid #ed0c6d;
+    box-shadow: 10px 10px 10px #9ea0ab
+}
+
+.resource-4 {
+    padding: 50px 10px;
+    margin: 20px 0 20px 0;
+    border: 1px solid #ebedef;
+}
+
+.resource-4:hover {
+    border: 2px solid #ed0c6d;
+    box-shadow: 10px 10px 10px #9ea0ab
+}
+
+.resource-5 {
+    padding: 62px 10px;
+    margin: 20px 0 20px 0;
+    border: 1px solid #ebedef;
+}
+
+.resource-5:hover {
+    border: 2px solid #ed0c6d;
+    box-shadow: 10px 10px 10px #9ea0ab
+}
+
+.resource:hover {
+    border: 2px solid #ed0c6d;
+    box-shadow: 10px 10px 10px #9ea0ab
+}
+
+.copy {
+    font-size: 12px;
+    padding-top: 12px;
+}
+
+/*===========================================================MEADIA QUE===============================================*/
+@media (max-width: 479px) {
+    .feim {
+        max-width: 35%;
+        height: auto;
+    }
+
+    .serviceh {
+        padding: 10px 0;
+    }
+
+    .shead {
+        padding-left: 20px;
+    }
+
+    .text {
+        padding: 30px 0px;
+        ;
+        font-size: 9px;
+    }
+
+    .large-1 {
+        width: 100%;
+    }
+
+    .large-2 {
+        width: 100%;
+    }
+
+    .text-2 {
+        padding: 20px 18px;
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .slide {
+        padding: 100px 0;
+    }
+
+    .serviceh {
+        padding: 10px 0;
+    }
+
+    .feim {
+        max-width: 35%;
+        height: auto;
+    }
+
+    .text {
+        padding: 30px 0px;
+        ;
+        font-size: 9px;
+    }
+
+    .large-1 {
+        width: 100%;
+    }
+
+    .large-2 {
+        width: 100%;
+    }
+
+    .text-2 {
+        padding: 20px 18px;
+        font-size: 8px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .slide {
+        padding: 100px 0;
+    }
+
+    .serviceh {
+        padding: 10px 0;
+    }
+
+    .feim {
+        max-width: 35%;
+        height: auto;
+    }
+
+    .text {
+        padding: 30px 0px;
+        ;
+        font-size: 9px;
+    }
+
+    .large-1 {
+        width: 100%;
+    }
+
+    .large-2 {
+        width: 85%;
+    }
+
+    .text-2 {
+        padding: 23px 18px;
+        font-size: 8px;
+    }
+
+    .resource-3 {
+        padding: 87px 10px
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .slide {
+        padding: 120px 0;
+    }
+
+    .serviceh {
+        padding: 10px 0;
+    }
+
+    .text {
+        padding: 30px 5px;
+        ;
+        font-size: 9px;
+    }
+
+    .large-1 {
+        width: 100%;
+    }
+
+    .large-2 {
+        width: 85%;
+    }
+
+    .text-2 {
+        padding: 23px 18px;
+        font-size: 9px;
+    }
+
+    .resource-3 {
+        padding: 75px 10px
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .slide {
+        padding: 150px 0;
+    }
+
+    .slide {
+        padding: 150px 0;
+    }
+
+    .text {
+        padding: 30px 5px;
+        ;
+        font-size: 10px;
+    }
+
+    .large-1 {
+        width: 100%;
+    }
+
+    .large-2 {
+        width: 85%;
+    }
+
+    .text-2 {
+        padding: 23px 18px;
+        font-size: 10px;
+    }
+
+    .resource-4 {
+        padding: 38px 10px;
+    }
+
+    .resource-5 {
+        padding: 50px 10px
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .slide {
+        padding: 150px 0;
+    }
+
+    .text {
+        padding: 30px 5px;
+        ;
+        font-size: 13px;
+    }
+
+    .large-1 {
+        width: 100%;
+    }
+
+    .large-2 {
+        width: 90%;
+    }
+
+    .text-2 {
+        padding: 23px 18px;
+        font-size: 13px;
+    }
+}
+
+/*===========================================================MEADIA QUE===============================================*/
+.button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #ed0c6d;
+}
+
+.con {
+    color: #484848;
+    list-style: none;
+}
+
+.con:hover {
+    color: #ed0c6d;
+    list-style: none;
+}
+
+.con-1 {
+    color: #484848;
+}
+
+.fb {
+    border: 1px solid #313131;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.fon {
+    font-size: 18px;
+}
+
+.fon-1 {
+    font-size: 22px;
+}
+
+.sfb {
+    color: #1976d2;
+}
+
+.stw {
+    color: #03a9f4;
+}
+
+.sin {
+    color: #0077b5;
+}
+
+.sis {
+    color: #fa0114;
+}
+
+.swp {
+    color: #57b449;
+}
+
+.line {
+    width: 100%;
+    border: 1px solid black;
+}
+
+/*===========================================================animation================================================*/
